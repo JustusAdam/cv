@@ -51,8 +51,8 @@ career-profile:
   title: Career Profile
   summary: |
     My main occupation since 2013 has been studying computer science at TU
-    Dresden. During that time I was also active in the student repesentation
-    of the faculty for about a year and a half. 
+    Dresden. During that time I was active in the student repesentation of the
+    faculty for about a year and a half. 
     
     Since 2015 I have also been working as a student research assistant at the
     Chair for Compiler Construction, developing a parallelizing compiler
@@ -66,13 +66,14 @@ education:
       My advanced studies in CS mostly focused on distributed systems and
       parallel programming. 
 
-      At the same time I have researched and written seminars on topics on
-      functional programming, software transactional programming, free monads
-      and extensible effects.
+      At the same time I have researched and written assignments on functional
+      programming, [software transactional
+      memory](https://github.com/JustusAdam/stm-summary-paper), [free monads and
+      extensible effects](https://github.com/JustusAdam/free-monad-evolution).
 
-      My masters thesis will focus on deep integration of User Defined
-      Functions in databases. You can find my slides for the introductory talk
-      of the topic [here](https://justus.science/pdfs/forschungsprojekt.pdf).
+      My masters thesis focuses on deep integration of User Defined Functions in
+      databases. You can find my slides for the introductory talk of the topic
+      [here](https://justus.science/pdfs/forschungsprojekt.pdf).
 
   - degree: BSc in Computer Science
     university: Technische Universität Dresden
@@ -82,7 +83,7 @@ education:
       the basics of computing machine implementation, logic, mathematics,
       graph theory, algorithmic thinking and complexity theory etc.
 
-      The courses I was able to choose were Compiler Construction and Database
+      For the advanced courses I chose Compiler Construction and Database
       Programming.
 
       A link to the thesis itself is in the [publications
@@ -94,18 +95,20 @@ experiences:
     company: Chair for Compiler Construction - TU Dresden
     details: |
       I helped develop a parallelizing compiler called
-      [Ohua](https://ohua-dev.github.io). I had significant input on all parts
-      of the design of the compiler frontend and its lambda calculus based
-      intermediate language. In addition I implemented a large part of the
-      IR-passes performed in the compiler.
+      [Ohua](https://ohua-dev.github.io). I had significant input on the design
+      of the compiler frontend, the semantics of the language and the design of
+      its lambda calculus based intermediate language. In addition I implemented
+      a large part of the IR-passes performed in the compiler and a prototype
+      backend in Haskell.
 
   - role: Student Tutor
     time: 2014 - 2015
     company: Informatikfakultät - TU Dresden
     details: |
-      I tutored a few courses at the CS faculty. Those were computer science
-      for mechanical engineering students, mostly using C#, also a
-      introductory robotics programming lab class for frechmen CS students and
+      I tutored computer science for mechanical engineering students, mostly
+      using C# and a introductory robotics programming lab class for freshmen CS
+      students.
+
       I also offered a voluntary class for interemediate level Python and one
       for Haskell in two subsequent terms.
 
@@ -116,14 +119,14 @@ experiences:
       I spent a little over 10 months in Kelowna, Canada on a Work and Travel
       program to take a peek and the country and culture.
 
-      During this time I did pretty much any job our small fast restarant requred.
+      During this time I did pretty much any job our small fast food restarant required.
 
 projects:
   title: Projects
   intro: >
     This lists the more insteresting of my public projects. I also develop and
     maintain a few minor ones, such as the Haskell syntax extension vor Visual
-    Studio Code. You can find the full list on my [GitHub profile](https://github.com/JustusAdam)
+    Studio Code. You can find the full list on my GitHub profile.
 
   assignments:
     - title: Ohua
@@ -147,8 +150,8 @@ projects:
 publications:
   title: Publications
   intro: |
-    Most of these publications were created during my work at the Chair for
-    Compiler Construction. 
+    These publications were created during my work at the Chair for Compiler
+    Construction. 
 
     You can also have a look at my [Google Scholar profile](https://scholar.google.de/citations?user=Tabbno4AAAAJ)
 
@@ -189,14 +192,14 @@ skills:
     - name: Java, Clojure
       level: 80%
 
-    - name: Type Level Programming &amp; Idris
-      level: 60%
-
     - name: LaTeX
       level: 50%
 
     - name: Rust
       level: 50%
+
+    - name: Type Level Programming &amp; Idris
+      level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

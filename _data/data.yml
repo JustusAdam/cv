@@ -3,198 +3,200 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Justus Adam
+    tagline: Student of Computer Science
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: me@justus.science
+    phone: +49 1578 7097942
+    website: justus.science #do not add http://
+    linkedin:
+    github: JustusAdam
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@justusadam_'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Basic
+
+      - idiom: French
+        level: Basic
 
     interests:
-      - item: Climbing
+      - item: Bouldering
         link:
 
-      - item: Snowboarding
+      - item: Piano
         link:
 
-      - item: Cooking
-        link:
+      - item: The University Choir
+        link: https://unichor-dresden.de
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      My main occupation since 2013 has been studying computer science at TU
+      Dresden. During that time I was also active in the student repesentation
+      of the faculty for about a year and a half. 
+      
+      Since 2015 I have also been working as a student research assistant at the
+      Chair for Compiler Construction, developing a parallelizing compiler
+      called [Ohua](https://ohua-dev.github.io).
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Computer Science (not yet graduated)
+      university: Technische Universität Dresden
+      time: 2016 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        My advanced studies in CS mostly focused on distributed systems and
+        parallel programming. 
 
-          - Bullet point
-          - Bullet point
+        At the same time I have researched and written seminars on topics on
+        functional programming, software transactional programming, free monads
+        and extensible effects.
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        My masters thesis will focus on deep integration of User Defined
+        Functions in databases. You can find my slides for the introductory talk
+        of the topic [here](https://justus.science/pdfs/forschungsprojekt.pdf).
+
+    - degree: BSc in Computer Science
+      university: Technische Universität Dresden
+      time: 2013 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Undergraduate studies in Germany have a mostly fixed curriculum spanning
+        the basics of computing machine implementation, logic, mathematics,
+        graph theory, algorithmic thinking and complexity theory etc.
 
-          - Bullet point
-          - Bullet point
+        The courses I was able to choose were Compiler Construction and Database
+        Programming.
+
+        A link to the thesis itself is in the [publications
+        section](#publications). There is also a [git repo](https://github.com/JustusAdam/bt)
 
 experiences:
-    - role: Lead Developer
+    - role: Student Research Assistant
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Chair for Compiler Construction - TU Dresden
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I helped develop a parallelizing compiler called
+        [Ohua](https://ohua-dev.github.io). I had significant input on all parts
+        of the design of the compiler frontend and its lambda calculus based
+        intermediate language. In addition I implemented a large part of the
+        IR-passes performed in the compiler.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
+    - role: Student Tutor
       time: 2014 - 2015
-      company: Google, London
+      company: Informatikfakultät - TU Dresden
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        I tutored a few courses at the CS faculty. Those were computer science
+        for mechanical engineering students, mostly using C#, also a
+        introductory robotics programming lab class for frechmen CS students and
+        I also offered a voluntary class for interemediate level Python and one
+        for Haskell in two subsequent terms.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Work and Travel
+      time: 2012 - 2013
+      company: Mostly KFC and Taco Bell Canada
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        I spent a little over 10 months in Kelowna, Canada on a Work and Travel
+        program to take a peek and the country and culture.
 
-          - Bullet point
-          - Bullet point
+        During this time I did pretty much any job our small fast restarant requred.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      This lists the more insteresting of my public projects. I also develop and
+      maintain a few minor ones, such as the Haskell syntax extension vor Visual
+      Studio Code. You can find the full list on my [GitHub profile](https://github.com/JustusAdam)
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Ohua
+        link: https://ohua-dev.github.io
+        tagline: A parallelizing compiler with exchangeable runtimes and
+          flexible frontends.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Yauhau
+        link: https://github.com/ohua-dev/yauhau
+        tagline: Automatic optimization for I/O actions via batching, caching
+          and concurrency.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: mustache
+        link: https://github.com/JustusAdam/mustache
+        tagline: Mustache templates in Haskell
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: marvin
+        link: https://marvin.readthedocs.org
+        tagline: A Haskell framework for creating chatbots. Inspired by Hubot.
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Most of these publications were created during my work at the Chair for
+      Compiler Construction. 
+
+      You can also have a look at my [Google Scholar profile](https://scholar.google.de/citations?user=Tabbno4AAAAJ)
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Supporting Fine-grained Dataflow Parallelism in Big Data Systems.
+        authors: Sebastian Ertel, Justus Adam and Jeronimo Castrillon 
+        link: https://cfaed.tu-dresden.de/files/Images/people/chair-cc/publications/1802_Ertel_PMAM.pdf
+        conference: > 
+          Proceedings of the 9th International Workshop on Programming
+          Models and Applications for Multicores and Manycores (2018)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Compiling for concise code and efficient I/O
+        authors: Sebastian Ertel, Andrés Goens, Justus Adam, Jeronimo Castrillon
+        link: https://dl.acm.org/citation.cfm?id=3179505
+        conference: Proceedings of the 27th International Conference on Compiler Construction (2018)
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Bachelor Thesis: Control Flow and Side Effects support in a
+      Framework for automatic I/O batching"
+        link: https://cfaed.tu-dresden.de/files/user/sertel/BachelorsThesis-Justus-Adam.pdf
+        authors: Justus Adam
+        conference: Technische Universität Dresden (2017)
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Haskell
         level: 95%
 
-      - name: Ruby on Rails
+      - name: > 
+          Concurrent &amp; Parallel Programming (MPI, Actors, STM, Threads
+          &amp; Locks, Promises)
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Python
+        level: 85%
+
+      - name: Java, Clojure
+        level: 80%
+
+      - name: Type Level Programming &amp; Idris
         level: 60%
+
+      - name: LaTeX
+        level: 50%
+
+      - name: Rust
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -95,21 +95,20 @@ experiences:
     company: Chair for Compiler Construction - TU Dresden
     details: |
       I helped develop a parallelizing compiler called
-      [Ohua](https://ohua-dev.github.io). I had significant input on the design
-      of the compiler frontend, the semantics of the language and the design of
-      its lambda calculus based intermediate language. In addition I implemented
-      a large part of the IR-passes performed in the compiler and a prototype
-      backend in Haskell.
+      [Ohua](https://ohua-dev.github.io) under the supervision of [Sebastian
+      Ertel](https://cfaed.tu-dresden.de/sebastian-ertel). I worked on the
+      semantics of the language, the compiler frontend, its lambda calculus
+      based intermediate language and the transformation passes.
 
   - role: Student Tutor
     time: 2014 - 2015
-    company: Informatikfakultät - TU Dresden
+    company: Faculty for Computer Science - TU Dresden
     details: |
       I tutored computer science for mechanical engineering students, mostly
       using C# and a introductory robotics programming lab class for freshmen CS
       students.
 
-      I also offered a voluntary class for interemediate level Python and one
+      I also offered a voluntary class for intermediate level Python and one
       for Haskell in two subsequent terms.
 
   - role: Work and Travel
@@ -119,7 +118,7 @@ experiences:
       I spent a little over 10 months in Kelowna, Canada on a Work and Travel
       program to take a peek and the country and culture.
 
-      During this time I did pretty much any job our small fast food restarant required.
+      During this time I did pretty much any job our small fast food restaurant required.
 
 projects:
   title: Projects
@@ -134,7 +133,7 @@ projects:
       tagline: A parallelizing compiler with exchangeable runtimes and
         flexible frontends.
 
-    - title: Yauhau
+    - title: Ÿauhau
       link: https://github.com/ohua-dev/yauhau
       tagline: Automatic optimization for I/O actions via batching, caching
         and concurrency.

@@ -50,11 +50,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    In the beginning of 2020 I finished my Masters Degree form the Technische
+    In the beginning of 2020 I finished my Masters Degree from the Technische
     Universität Dresden and I am now in the pursuit of a PhD at the University
     of Kent in Canterbury.
 
-    During my Undergraduate I have worked as a student research assistant at the
+    During my Undergraduate I worked as a student research assistant at the
     Chair for Compiler Construction, developing a parallelizing compiler
     called [Ohua](https://ohua-dev.github.io). And I was also active as a member
     of the student representation, i.e. the union.
@@ -69,8 +69,8 @@ education:
       and Java.
 
       For a more detailed description see my [Kent Staff
-      Page](https://cs.kent.ac.uk/people/rpg/ja679/)
-  - degree: MSc in Computer Science
+      Page](https://www.cs.kent.ac.uk/people/rpg/ja679/)
+  - degree: M. Sc. in Computer Science
     university: Technische Universität Dresden
     time: 2016 - 2020
     details: |
@@ -86,7 +86,7 @@ education:
       databases. You can find my slides for the introductory talk of the topic
       [here](https://justus.science/pdfs/forschungsprojekt.pdf).
 
-  - degree: BSc in Computer Science
+  - degree: B. Sc. in Computer Science
     university: Technische Universität Dresden
     time: 2013 - 2016
     details: |
